@@ -1,0 +1,38 @@
+//Podemos "anidar" sentencias condicionales.
+//Meter una condicional dentro de otra, sin limites.
+//No se recomienda mas de tres anidadas
+//UNA ESTRUCTURA "else if"
+//si son falsas, se ejecuta "else"
+//si hay una verdadera las demas no se ejecutan
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condicionales Anidadas</title>
+	<meta charset="utf-8">
+	<script>
+		var nombre = prompt("cual es tu nombre?");/*FUNCION DE WINDOW*/
+		if(nombre=="Picapiedra"){
+			alert("Bienvenido Pedro Picapiedra");
+		} else if (nombre=="Bond"){
+			numero = prompt("Cual es tu numero de agente?");
+			if(numero=="007"){
+				clave = prompt("Cual es la clave secreta?");
+				if(clave=="Diamante"){
+					alert("Bienvenido James Bond");
+				}else{
+					alert("Lo sentimos, usted es un impostor");
+				}
+			}
+		} else if (nombre=="Pablo"){
+			alert("Bienvenido Pablo Marmol");
+		} else {
+			alert("Hola, ati no te conozco");
+		}
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
