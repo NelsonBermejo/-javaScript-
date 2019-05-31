@@ -1,0 +1,48 @@
+/*Switch, podemos preguntar pero solo de una variable*/
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condicionales Switch</title>
+	<meta charset="utf-8">
+	<script>
+		var estadoCivil=prompt("¿Cual es tu estado civil?");
+		var mensaje="lo invitamos a un viaje a chispas";
+		var mensaje2="";
+		switch(estadoCivil){
+			case "soltero":
+			case "soltera":
+				mensaje2="donde podras conocer a mas personas solteras";
+				break;
+			case "casado":
+			case "casada":
+				mensaje2="donde podras disfrutar de la familia";
+				break;
+			case "divorciado":
+			case "divorciada":
+			case "separado":
+			case "separada":
+				mensaje2="donde podras olvidar tus penas ";
+				break;
+			case "viudo":
+			case "viuda":
+			case "abandonado":
+			case "abandonada":
+				mensaje2="donde podras recordar tus mejores tiempos";
+				break;
+			case "arrejuntado":
+			case "arrejuntada":
+				mensaje2="donde podras tomar esa importante decision";
+				break;
+			default:
+				mensaje2="donde podras definir tu situacion personal";
+				break;
+		}
+		mensaje3=" en una extraordinaria experiencia en la naturaleza";
+		document.write(mensaje+mensaje2+mensaje3);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

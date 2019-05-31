@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>operador condicional o ternario</title>
+	<meta charset="utf-8">
+	<script>
+		/*
+		Operador condicional(terciario)
+		(opcion)?verdadera:falsa
+		if(opcion){
+			verdadero
+		}else{
+			Falsa
+		}		
+			*/
+	
+		var importe = 1000;
+		/*var tipoCambio=0;*/
+		var tipoCambio=19.50;
+		//            si es mayor a cero? el importe lo multiplicamos por tipo cambio de lo contrario nos da el importe
+		var total = (tipoCambio>0)?importe*tipoCambio : importe;
+
+		var mensaje = (tipoCambio>0)?",tipo de cambio"+tipoCambio: "";
+		document.write("El total de tu pedido es de "+total+mensaje);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

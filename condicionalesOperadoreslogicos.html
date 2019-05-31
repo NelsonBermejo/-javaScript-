@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condicionales Operadores logicos</title>
+	<meta charset="utf-8">
+	<script>
+		var dinero=true;
+		var auto=true;
+		var amiga="Martha";
+		/*si tengo dinero y tengo auto y amiga es igual a lola*/
+		if (dinero && auto && amiga=="Lola") {
+			alert("Voy al teatro");
+		/*si tengo dinero si tengo autp y mi amiga es lola*/	
+		} else if (!dinero && auto && amiga=="Lola") {
+			alert("Voy al cine");
+		/*No tengo dinero no tengo Auto y mi amiga es lola*/
+		} else if (!dinero && !auto && amiga=="Lola") {
+			alert("Me quedo en la casa");
+			/**/
+		} else if (!dinero && !auto && amiga=="Martha"){
+			alert("Vemos television en la casa");
+		} else if (!dinero && auto && amiga=="Marta") {
+			alert("Ir al futbol");
+		} 
+		if (dinero && auto && amiga=="Martha") {
+			alert("Vamos a la opera");
+		}
+		else {
+			alert("Me quedo en casa");
+		}
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>
