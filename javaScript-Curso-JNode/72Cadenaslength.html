@@ -1,0 +1,33 @@
+/*
+METODOS Y PROPIEDADES
++La propiedad "length" te indica el numero de caracteres o letras.
++toUpperCase() o toLowerCase() convierten una cadena a mayusculas o minusculas.
+*/
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadenas | Length, to UpperCase y toLowerCase</title>
+	<meta charset="utf-8">
+	<script>
+		var correo1 = "nelsonoffspring@gmail.com.mx";
+		var correo2 = "NelsonOffspring@gmail.com.mx";
+
+		
+		document.write("La longitud de la clave "+correo1+" es de "+correo1.length+" caracteres<br>");
+		if(correo1.length<26){
+			document.write("La clave de acceso es muy corta<br>");
+		} else {
+		   if(correo1.toLowerCase()==correo2.toLowerCase()){//minuscula
+			document.write("Las claves coinciden<br>");
+		} else {
+			document.write("Las claves NO coinciden<br>");
+		}
+		}
+		
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+/*
+break/continue
+Dentro de un ciclo podemos utilizar las sentencias break, para cortar el ciclo y
+continue para repetirlo sin ejecutar las instrucciones inferiores.
+Ambas se ejecutan dentro de un "if"
+*/
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cicos | Break y ccontinue</title>
+	<meta charset="utf-8">
+	<script>
+		//continue
+		for (var i = 0; i < 10; i++){
+			if (i%2==1){
+				continue;//regresa a iterar y solo se van a imprimir los numeros pares
+			}
+			document.write("El valor de i es :"+i+"<br>");
+		}
+		//break
+		var numero = 0;
+		var intentos = 1;//0
+		var magico = 7;
+		while(numero!=magico){
+			numero = prompt("Adivina el numero magico entre 0 y 10"+intentos+"de 3");
+			if(numero==magico){
+				alert("El"+magico+" es el numero magico");
+				break;
+			}
+			//incrementos
+			intentos++;
+			if(intentos==3){
+				alert("Lo sentimos , eres muy mal adivinador");
+				break;
+			}
+
+		}
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

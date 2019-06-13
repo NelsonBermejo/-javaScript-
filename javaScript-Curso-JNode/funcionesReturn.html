@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function saludo(nombre,mensaje){
+			var salida = "Hola "+nombre+", "+mensaje;
+			/*document.write("Hola "+nombre+""+mensaje);*/
+			return salida;
+		}
+		var nombre = prompt("cual es tu nombre");
+		var cadena = saludo(nombre,"Buenos dias");
+		document.write(cadena);
+		alert(saludo(nombre,"hasta pronto..."));
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

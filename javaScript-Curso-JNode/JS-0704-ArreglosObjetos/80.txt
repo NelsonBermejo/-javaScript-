@@ -1,0 +1,19 @@
+En la representacion de los meses para valores enteros JavaScript comienza a contar desde 0, por lo tanto, enero serà el mes 0 y diciembre el mes 11.
+
+getDate() Devuelve el dia del mes actual.
+getDay() Devuelve el dia de la semana actual.
+getHours() Devuelve la hora actual.
+getMinutes() Devuelve los minutos actuales.
+getMonth() Devuelve el mes actual.
+getSecond() Devuelve los segundos actuales.
+getTime() Devuelve la hora actual.
+getTimeZoneoffset() Devuelve la diferencia en minutos entre la hora actual y la GTM.
+getYear() Devuelve el año actual.
+
+setDate(valor) Establece ek dia del mes.
+setHours(valor) Establece la hora actual.
+setMinutes(valor) Establece los minutos actuales.
+setMonth() Establece el mes actual.
+setSeconds(valor) Establece los segundos actuales.
+setTime(valor) Establece el valor del tiempo actual.
+setYear(valor) Establece el año actual.

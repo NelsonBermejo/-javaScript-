@@ -1,0 +1,27 @@
+81Math
+E constante de Euler o numero e
+LN Logaritmo de 2
+LN10 LOgaritmo de 10.
+LOG2E Logaritmo de e en base 2.
+LOG10E Logaritmo de e en base 10.
+PI Numero PI.
+SQRT1_2 Raiz cuadrada de 0.5.
+SQRT2 Raiz cuadrada de 2.
+
+A continuacion, relacionamos los metodos, que son los elementos que nos permiten realizar operaciones.
+
+abs(n) Calcula el valor absoluto de n.
+******************************************
++TRIGONOMETRIA
+acos(n) Calcula el arcocoseno de n.
+asin(n) Calcula el arcoseno de n.
+atan(n) Calcula el arcotangente de n
+*****************************************
+ceil(n) Redondea un numero hacia el superior.
+cos(n) Calcula el coseno de un numero
+
+exp(n) Calcula un exponencial del numero e.
+floor(n) Redondea un numero hacia el inferior.
+log(n) Calcula el logaritmo de un numero n.
+max(x,y) Devuelve x o y, en funcion de cual de los dos es mayor.
+min(x,y) Devuelve x o y, en funcion de cual de los dos es menor

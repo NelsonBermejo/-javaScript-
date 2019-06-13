@@ -1,0 +1,9 @@
+/*
++Los objeros son variables agregadas que pueden contener variables basicas (cadenas, numeros o booleanas ), variables agregadas (arreglos y otros objetos) y funciones.
++Por lo general un objeto contiene varias propiedades de un solo "objeto".
+
++Por lo general un objeto contiene varias propiedades de un solo "objeto".
+
++LOS OBJETOS SE PUEDEN CREAR CON OBJECT O AL VUELO CON {}.
++PARA POBLAR UN OBJETO USAMOS LA NOTACION PUNTO. 
+*/

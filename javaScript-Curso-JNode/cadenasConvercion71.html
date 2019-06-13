@@ -1,0 +1,49 @@
+/*
++Conversion ed cambiar el tipo de dato de una variable.
++Concatenacion es unir cadenas o numeros.
++simbolo mas "+" nos sirve para sumar y para concatenar.
++Si no podemos convertir una cadena a numero, nos regresa un valor NaN.
++NaN significa Not a Number.
++Para detectar un NaN tenemos la funcion isNaN()
++Podemos Utilizar la funcion Number() para convertir una cadena a numero.
+*/
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadenas | Conversion</title>
+	<meta charset="utf-8">
+	<script>
+		//usamos el + como suma
+		var num1 = 6;
+		var num2 = 6;
+		console.log(num1+num2);
+
+		var num1 = "6";
+		var num2 = "6";
+		console.log(num1+num2);
+
+		var num1 =  6;
+		var num2 = "6";
+		console.log(num1+num2);
+
+		var num1 = Number("6");
+		var num2 =  6;
+		console.log(num1+num2);
+
+		var num1 = Number("six");
+		var num2 =  6;
+		var total = num1+num2;
+		console.log(total);
+
+		if (isNaN(total)) {
+			console.log("El total no es numerico");
+		} else {
+			console.log("El total no es ",total);
+		}
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

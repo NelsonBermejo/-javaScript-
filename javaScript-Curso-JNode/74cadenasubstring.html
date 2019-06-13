@@ -1,0 +1,52 @@
+/*
+slice():
+Partimos una cadena de una posicion con slice()
+email.slice(pos+1);
+
+substr() divide una cadena de un punto determinado cierto numero de caracteres
+email.substr(0,pos);
+
+*/
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadenas | slice() y substr()</title>
+	<meta charset="utf-8">
+	<script>
+		var correo1 = "pacoarce@gmail.com.mx";
+		var correo2 = "PacoArce@gmail.com.mx";
+		//PacoArce@gmail.com.mx;
+		//012345678
+		var pos = correo2.indexOf("@");
+		console.log(pos);
+		var punto = correo2.indexOf(".",pos+1);
+		console.log(punto);
+		//Primera validacion de: longitud
+		if(correo1.length<10){
+			document.write("La clave de acceso es muy corta<br>");
+		} else if(pos==-1){
+			document.write("El correo no tiene la arroba<br>");
+		} else if(punto==-1){
+			document.write("El correo debe tener al menos un punto<br>");
+
+		} else if(!(correo1.toUpperCase()==correo2.toUpperCase())){//minuscula
+				document.write("Las claves coinciden<br>");
+				
+   		} else {
+			servicio = correo2.slice(pos+1).toLowerCase();
+			usuario = correo2.substr(0,pos).toLowerCase();
+			document.write("<br><br>Tu servicio de correo es : <b>"+servicio+"</b><br>");
+			document.write("Tu usuario de correo es  : <b>"+usuario+"</b><br>");
+					document.write("Las claves coinciden<br>");
+		}
+		   	
+		
+		
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

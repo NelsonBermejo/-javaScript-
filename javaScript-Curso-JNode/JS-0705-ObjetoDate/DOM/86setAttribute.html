@@ -1,0 +1,49 @@
+/*
+Podemos seleccionar los nodos por nombre de la ETIQUETA EJ: GetElementById(), por identificador o por clase, cualquier selector del tipo: estilos en cascada CSS.
+ahora empezamos a modificar.. generalmente se modifican atribuos
+
+Recuperamos el valor del atributo por medio del:getAttribute("")
+Ej: miElemento.getAttribute("align");
+
+Podemos modificar el valor del atributo por medio del:setAttribute:
+                        "Alineacion","Modificacion"
+Ej: miElemento.setAttribute("align","left");
+
+*/
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Document Object Model </title>
+	<meta charset="utf-8">
+	<script>
+		window.onload = function(){
+			//recuperamos los li
+			var misLI = document.getElementsByTagName("li");
+			console.log("El numeros de elementos del tipo lista es de : "+misLI.length);
+
+			var miDOM = document.getElementById("dom");
+			console.log("El tipo de nodo de DOM es: "+miDOM.nodeType);
+
+			//cambiamos el atributo de dom
+			miDOM.setAttribute("class","rojo");
+		}
+
+	</script>
+	<style>
+		.rojo{
+			color:red;
+			font-size:3em;
+		}
+	</style>
+</head>
+<body>
+<h1>Esta es una pagina HTML</h1>
+<p>Las siglas DOM significan:</p>
+<ul id="dom">
+	<li>Document</li>
+	<li>Object</li>
+	<li>Model</li>
+
+</ul>
+</body>
+</html>

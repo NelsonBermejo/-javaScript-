@@ -1,0 +1,12 @@
+Arreglos: Metodos para los arreglos
+
++sort(): Ordena el arreglo en orden alfabetico
++reverse(): Ordena en orden inverso.
++push(): introduce un elemento al final del arreglo.
++pop(): extrae el ultimo elemento de un arreglo.
++unshift(): introduce un elemto al inicio del arreglo.
++shift(): extrae el primer elemento del arreglo.
++splice():añade o remueve elementos de un arreglo
+         -index: indica la posicion donde se insertaran o removeran los elementos. El primer elemento es cero.
+         -howmany: numero de elementos a ser removidos, SI es cero, no se remuevem.
+        -item1...itemX:(opcional) Elementos a ser añadidos al arreglo a partir de la posicion indicada.

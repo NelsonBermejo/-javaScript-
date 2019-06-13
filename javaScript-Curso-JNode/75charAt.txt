@@ -1,0 +1,8 @@
+/*
+charAt regresa un caracter (i) de una cadena
+var c=invalidos.charAt(i);
+
+******************************************
+En un correo electronico todos los caracteres son validos a excepcion de:
+-las letras acentuadas -Los caracteres de control (CTRL + teclado) -Los espacios -Los signos especiales como ()<>@,;:""[]\|@#~ª!&/$%
+*/

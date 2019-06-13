@@ -1,0 +1,31 @@
+/*
++Una variable que defines por medio de "var" dentro de una funcion se le considera "local".
++Una variable local, solo existe dentro de la funcion luego desaparece.
++Se considera una variable "global" cuando la defines fuera de las funciones y puede ser "vista"(scope) dentro de cualquier funcion dentro de la pagina o documento HTML.
++nO SE DEBE MODIFICAR ARIABLES "GLOBALES"dentro de funciones(matas la modularidad).
++Diseño de "Cajas Negras".
+
+*/
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funciones | alcance(scope) de las variables</title>
+	<meta charset="utf-8">
+	<script>
+		//variables globales
+		var importe = 10000;
+		var impuesto = .16;//IVA
+		var total = 0;
+		function  calculaTotal(importe, impuesto){
+			var total = importe * (1+impuesto);//si saco el var estaria modificando una variable global
+			return total;
+		}
+		document.write("El valor antes de la funcion de total es  "+total+"<br>");
+		document.write("El valor calculado es   "+calculaTotal(importe,impuesto)+"<br>");
+		document.write("El calor despues de la funcion total es de  "+total+"(compruebo que la variable global no se modifico)<br>");
+	</script>
+</head>
+<body>
+
+</body>
+</html>

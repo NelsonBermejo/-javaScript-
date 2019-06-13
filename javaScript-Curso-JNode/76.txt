@@ -1,0 +1,5 @@
+76 Arreglos y objetos
+        Matrices
+       vectores
+
+Si las variables son como cajas, los arreglos o rrays serian como cajoneras
